@@ -2,7 +2,7 @@
 
 This project implements a Convolutional Neural Network (CNN) model to classify dental images into multiple categories using TensorFlow and Keras.
 The model is trained with data augmentation and evaluated on separate validation and test datasets.
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📌 Project Overview
 
 The goal of this project is to build a deep learning model capable of classifying teeth images into different categories using a custom CNN architecture.
@@ -25,6 +25,8 @@ Testing & evaluation
 
 Saving & loading the trained model
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 📂 Dataset Structure
 
 The dataset is organized in the following directory structure:
@@ -40,6 +42,8 @@ Teeth_DataSet/
 Each folder contains subfolders representing the class labels.
 
 Unwanted folders (e.g., out, output, outputs) are excluded during loading.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ⚙️ Data Preprocessing
 
@@ -63,6 +67,8 @@ Horizontal flipping
 
 This improves generalization and reduces overfitting.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 📊 Data Visualization
 
 The project includes:
@@ -74,6 +80,8 @@ The project includes:
 🔄 Display of augmented images
 
 This helps in understanding dataset balance and augmentation impact.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🧠 Model Architecture
 
@@ -111,6 +119,8 @@ Metric:
 
 Accuracy
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🚀 Training
 
 Trained for 100 epochs
@@ -123,11 +133,15 @@ Training set
 
 Validation set
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🧪 Model Evaluation
 
 The trained model is evaluated on a separate test dataset:
 
 Test Accuracy: XX.XX
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 💾 Model Saving & Loading
 
@@ -153,6 +167,8 @@ Matplotlib
 Seaborn
 
 OpenCV
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📌 Future Improvements
 
