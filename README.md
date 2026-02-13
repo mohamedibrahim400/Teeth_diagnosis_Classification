@@ -1,5 +1,3 @@
-🦷 Teeth Classification using CNN (TensorFlow / Keras)
-
 This project implements a Convolutional Neural Network (CNN) model to classify dental images into multiple categories using TensorFlow and Keras.
 The model is trained with data augmentation and evaluated on separate validation and test datasets.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
